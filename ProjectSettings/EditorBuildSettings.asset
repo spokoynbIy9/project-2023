@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/ConstLevel.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/PasswordLevel.unity
+    guid: da46890dc7438f74a9afa2abf9523a9a
+  - enabled: 1
+    path: Assets/Scenes/FallLevel.unity
+    guid: bfd3fec51e3116843a42aa843afb326d
+  - enabled: 1
+    path: Assets/Scenes/Transition.unity
+    guid: 570abfd02f34a754295b382f81aebecb
+  - enabled: 1
+    path: Assets/Scenes/BysicleLevel.unity
+    guid: fda80eb250f47c84aa57cd5ba79ebc34
+  - enabled: 1
+    path: Assets/Scenes/TransitionToPierLevel.unity
+    guid: 7378fea7e4974e34db3e7dc649b9c4ef
+  - enabled: 1
+    path: Assets/Scenes/PierLevel.unity
+    guid: 51f74a6d7eb4ebe468a8792991c7dc58
+  - enabled: 1
+    path: Assets/Scenes/GoodEnding.unity
+    guid: bc9405e0b9c9db348984c60107bef546
+  - enabled: 1
+    path: Assets/Scenes/BadEnding.unity
+    guid: bb906691ac3602344b0b47f27a2d54e8
+  m_configObjects: {}
