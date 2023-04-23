@@ -3997,9 +3997,13 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6362091200550726565, guid: dfb07910b2d049d489bd781b96448af1, type: 3}
+      propertyPath: _possibleQuestions.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6362091200550726565, guid: dfb07910b2d049d489bd781b96448af1, type: 3}
       propertyPath: _possibleQuestions.Array.data[0]
       value: 
-      objectReference: {fileID: 11400000, guid: bff7421ed186f074b930d0d80d22ea24, type: 2}
+      objectReference: {fileID: 11400000, guid: a377e64f7c3945b428632acfceae90fa, type: 2}
     - target: {fileID: 6362091200550726565, guid: dfb07910b2d049d489bd781b96448af1, type: 3}
       propertyPath: _onAnsweredAllQuestions.m_PersistentCalls.m_Calls.Array.size
       value: 3
