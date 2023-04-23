@@ -53,11 +53,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 974eef95908f9624688d26727c2ce188, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _rightAnswersCondition: 3
+  _secondsToNextAnswers: 0
   _questionText: {fileID: 6362091200769739683}
   _answersGroup: {fileID: 6362091201139495245}
   _answerContainerPrefab: {fileID: 7421002407746314489, guid: 7384516026df4134b86c14803d4174da, type: 3}
   _possibleQuestions:
+  - {fileID: 11400000, guid: a864d7f0a31df30489384e7cfbac7e0a, type: 2}
   - {fileID: 11400000, guid: 61fd4b660d0e77c47a2dd1825ea8768b, type: 2}
+  - {fileID: 11400000, guid: d57f528ea17ae854093e3498de587279, type: 2}
+  - {fileID: 11400000, guid: 2a4c9bf9f5e60c84d86b8dbf2259924a, type: 2}
+  - {fileID: 11400000, guid: 19eb1864e72c3e44f89b72dea7b41634, type: 2}
+  _onAnswer:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7626614985862449749, guid: 3ec2f6122c9957c4084891eccb0b5aba, type: 3}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _onWrongAnswer:
+    m_PersistentCalls:
+      m_Calls: []
+  _onAnsweredAllQuestions:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!222 &6362091200550726562
 CanvasRenderer:
   m_ObjectHideFlags: 0
